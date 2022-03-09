@@ -4,12 +4,13 @@ body {
     background-size: cover;
     font-family: Impact;
     text-align: center;
+    color: black;
 }
 
 /*End of Background style*/
 h2 {
     color: black;
-    background-color: navajowhite;
+    background-color: yellow;
     opacity: 75%;
     font-family: Impact;
 }
@@ -44,7 +45,7 @@ h1 {
     top: 0;
     width: 19.2%;
     height: 100%;
-    background-image: url("../Images/coffe3.jpg");
+    background-image: url("../Images/super-saiyan-dragon-ball-vegeta-dragon-ball-super-wallpaper-preview.jpg");;
     background-size: cover;
     background-position: center;
     transition: transform 0.6s 0.7s, width 0.7s, opacity 0.6s 0.7s, z-index 0s 1.3s;
@@ -126,25 +127,38 @@ h1 {
 }
 
 .el:nth-child(2) {
+    background-image: url("../Images/aizawa_by_meowyin_dcd2srq-350t.jpg");;
     transform: translate3d(105.2083333333%, 0, 0);
     transform-origin: 155.2083333333% 50%;
+    color:white;
 }
 
 
 .el:nth-child(3) {
+    background-image: url("../Images/9781658757393.jpg");;
     transform: translate3d(210.4166666667%, 0, 0);
     transform-origin: 260.4166666667% 50%;
+    color: white;
+    font-family: Impact;
+
 }
 
 .el:nth-child(4) {
+    background-image: url("../Images/Demon-Slayer-Season-2.jpeg");;
     transform: translate3d(315.625%, 0, 0);
     transform-origin: 365.625% 50%;
+    color: black;
+    font-family: Impact;
+    font-weight: bolder;
 }
 
 
 .el:nth-child(5) {
+    background-image: url("../Images/titan.0.0.jpg");;
     transform: translate3d(420.8333333333%, 0, 0);
     transform-origin: 470.8333333333% 50%;
+    color: black;
+    font-weight: bolder;
 }
 
 
