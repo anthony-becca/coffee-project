@@ -13,18 +13,25 @@ td, th {
     padding: 5px 10px;
 }
 
+
 #chkt {
-    overflow: auto;
+    overflow: scroll;
+    color: black;
+    height: 900px;
+    width:100%;
+    padding: 1%;
+    overflow:scroll;
 }
 
 body {
-    font-family: Arial;
+    /*font-family: Arial;*/
     font-size: 17px;
     padding: 8px;
+    overflow: scroll;
 }
 
 h2 {
-    font-family: Arial;
+    /*font-family: Arial;*/
     text-align: center;
 }
 
@@ -67,7 +74,7 @@ label {
 .icon-container {
     margin-bottom: 20px;
     padding: 7px 0;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .btn {
@@ -105,6 +112,9 @@ span.price {
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other
  instead of next to each other (also change the direction - make the "cart" column go on top) */
 @media (max-width: 800px) {
+    #chkt{
+        overflow: auto;
+    }
     .row {
         flex-direction: column-reverse;
     }
