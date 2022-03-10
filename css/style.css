@@ -2,7 +2,7 @@
 
     body {
         background-image: url("../Images/anime.jpg");;
-        background-size: 30%;
+        background-size: cover;
         font-family: 'Rosewell Black RGH', sans-serif;
         text-align: center;
         font-weight: bolder;
@@ -11,7 +11,7 @@
         backdrop-filter: blur(6px);
     }
 
-    Footer{
+    Footer {
         font-family: Arial;
         font-weight: bold;
         font-size: 15px;
@@ -169,18 +169,4 @@
         font-weight: bolder;
         font-family: 'Rosewell Black RGH', sans-serif;
     }
-
-
-    /*Media All Sizes*/
-    /* Small devices (phones and pocket devices, 576 and up) */
-    @media screen and (min-width:576px) { /* ... */ }
-
-    /* Medium devices (tablets, 768px and up) */
-    @media screen and (min-width:768px) { /* ... */ }
-
-    /* Large devices (desktops, 992px and up) */
-    @media screen and (min-width:992px) { /* ... */ }
-
-    /* Extra large devices (large desktops, 1200px and up) */
-    @media screen and (min-width:1200px) { /* ... */ }
 }
